@@ -1,6 +1,33 @@
-# The Arduino Sunflower Project
+# 🌻 Arduino Sunflower Project
 
-The Arduino Sunflower Project is a simple project that uses an Arduino UNO R3, an LDR and a servo to raise and lower a sunflower when the light turns on and off. The servo is connected to a sunflower (built with chopsticks, construction paper and tape). The project will require wall or USB power. We started with batteries, but found that the LDR used them up overnight. This is a good project if you are looking for something simple that can be done with a toddler (could be a few weekends of fun).
+A fun and simple Arduino project designed for parents and kids to build together!
+
+This project uses an Arduino UNO R3, a light-dependent resistor (LDR), and a servo motor to create a sunflower that "wakes up" when the light is on and "sleeps" when it's dark. The servo is attached to a handmade sunflower (crafted with chopsticks, construction paper, and tape) that raises and lowers based on the light level.
+
+We originally powered the project with batteries, but found they drained quickly overnight due to the LDR's constant draw. Switching to USB or wall power is recommended for longer use.
+
+**Why This Project?**
+
+We built this over a few weekends as a family activity. It's a great introduction to basic electronics, coding, and crafting—perfect for doing with toddlers (you do the code, they do the tape and paper + jumper wires 🌻).
+
+🧰 **What You’ll Need**
+- Arduino UNO R3
+- Light Dependent Resistor (LDR)
+- Servo motor (e.g., SG90)
+- 10k ohm resistor (for the LDR circuit)
+- Jumper wires
+- Breadboard
+- USB cable or wall adapter for power
+- Craft supplies for building your sunflower
+  
+---
+💻 **How It Works**
+The LDR senses ambient light. When it detects light above a certain threshold, it signals the servo to lift the sunflower. When it’s dark, the sunflower lowers again. It's a simple way to teach cause and effect with light and movement.
+
+---
+📁 **Code**
+The code is available in this repo. Just upload it to your Arduino using the Arduino IDE.
+
 
 
 ## See the fritzing for help with wiring.
